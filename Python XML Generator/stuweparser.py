@@ -43,6 +43,10 @@ class StuweParser:
 
 		root = ET.Element("mensa")
 
+		day = ET.SubElement(root, "day").text = self.getCurrentDay()
+		date = ET.SubElement(root, "date").text = self.getCurrentDate()
+
+
 		for m in menues:
 			men = ET.SubElement(root, "menue")
 
