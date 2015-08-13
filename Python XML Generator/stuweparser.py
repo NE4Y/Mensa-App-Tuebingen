@@ -51,19 +51,19 @@ class StuweParser:
 			men = ET.SubElement(root, "menue")
 
 			# menue name
-			ET.SubElement(men, "name").text = m.getName()
+			ET.SubElement(men, "name").text = m.name
 
 			# food
-			ET.SubElement(men, "food").text = m.getFood()
+			ET.SubElement(men, "food").text = m.food
 
 			# student price
-			ET.SubElement(men, "studentPrice").text = m.getStudentPrice()
+			ET.SubElement(men, "studentPrice").text = m.student
 
 			# pupil price
-			ET.SubElement(men, "pupilPrice").text = m.getPupilPrice()
+			ET.SubElement(men, "pupilPrice").text = m.pupil
 
 			# guest price
-			ET.SubElement(men, "guestPrice").text = m.getGuestPrice()
+			ET.SubElement(men, "guestPrice").text = m.guest
 
 		tree = ET.ElementTree(root)
 

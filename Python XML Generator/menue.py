@@ -16,17 +16,4 @@ class Menue:
 	def __str__(self):
 		return self.name + ": " +  self.food + " Student: " + self.student
 
-	def getName(self):
-		return self.name
-
-	def getFood(self):
-		return self.food
-
-	def getStudentPrice(self):
-		return self.student
-
-	def getPupilPrice(self):
-		return self.pupil
-
-	def getGuestPrice(self):
-		return self.guest
+	
