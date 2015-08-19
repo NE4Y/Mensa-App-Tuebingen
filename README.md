@@ -2,4 +2,4 @@
 
 ## Aktueller Stand
 
-![alt tag](http://i.epvpimg.com/RgqKd.jpg)
+<img src="http://i.epvpimg.com/RgqKd.jpg" width="40" />
