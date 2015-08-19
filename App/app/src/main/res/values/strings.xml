@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mensa Tübingen</string>
+    <string name="hello_world">Willkommen!</string>
+    <string name="action_settings">Settings</string>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="dark">#2c3e50</color>
+
+</resources>
