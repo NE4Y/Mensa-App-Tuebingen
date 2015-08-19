@@ -2,4 +2,4 @@
 
 ## Aktueller Stand
 
-<img src="http://i.epvpimg.com/RgqKd.jpg" width="80" />
+<img src="http://i.epvpimg.com/RgqKd.jpg" width="180" />
