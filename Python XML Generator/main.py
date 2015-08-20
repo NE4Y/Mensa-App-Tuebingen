@@ -11,5 +11,7 @@ parser = StuweParser(crawler.getHTML())
 
 try:
 	parser.generateXML()
-except:
-	print("An error occurrec while generating xml file")
+	print("XML generated")
+except Exception as e:
+	print("An error occurred while generating xml file")
+	print(e)

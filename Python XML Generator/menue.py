@@ -6,11 +6,10 @@
 
 class Menue:
 
-	def __init__(self, name, food, costStudent, costPupil, costGuest):
+	def __init__(self, name, food, costStudent, costGuest):
 		self.name = name
 		self.food = food
 		self.student = costStudent
-		self.pupil = costPupil
 		self.guest = costGuest
 
 	def __str__(self):
