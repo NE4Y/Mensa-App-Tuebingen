@@ -54,7 +54,11 @@ class StuweParser:
 			ET.SubElement(men, "name").text = m.name
 
 			# food
-			ET.SubElement(men, "food").text = m.food
+			food = m.food.rstrip('\r\n').split('\n')
+			food = [y for y in [x.lstrip() for x in food] if y != '']
+
+			ET.SubElement(men, "food").text = ''.join(food)
+			
 
 			# student price
 			ET.SubElement(men, "studentPrice").text = m.student
