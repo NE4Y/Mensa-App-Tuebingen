@@ -4,8 +4,20 @@
     <string name="app_name">Mensa Tübingen</string>
     <string name="hello_world">Willkommen!</string>
     <string name="action_settings">Settings</string>
+    <string name="loading">Daten werden geladen...</string>
+    <string name="developed">Developed by ne4y-dev.de</string>
+    <string name="morgenstelle">Mensa Morgenstelle</string>
+    <string name="willhelm">Mensa Willhelmstraße</string>
+    <string name="about">Über die App</string>
+
+
     <color name="black">#000</color>
     <color name="white">#FFF</color>
-    <color name="dark">#2c3e50</color>
+    <color name="light">#bdc3c7</color>
+    <color name="dark">#333</color>
+    <color name="green">#2ecc71</color>
+    <color name="darkgreen">#27ae60</color>
+    <color name="lightgrey">#ecf0f1</color>
+    <color name="red">#e74c3c</color>
 
 </resources>

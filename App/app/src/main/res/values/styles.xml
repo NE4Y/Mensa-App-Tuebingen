@@ -1,9 +1,27 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="noTitle" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
 
+    <style name="menuBTN">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/menu_btn</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+
 </resources>
+
+

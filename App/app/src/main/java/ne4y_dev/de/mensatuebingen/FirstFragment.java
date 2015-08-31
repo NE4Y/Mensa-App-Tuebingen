@@ -50,9 +50,10 @@ public class FirstFragment extends Fragment {
         TextView studentPrice = (TextView) view.findViewById(R.id.student);
         studentPrice.setText("Studentenpreis: " + student);
 
+        // deactivated on website
         // Schülerpreis
-        TextView pupilPrice = (TextView) view.findViewById(R.id.pupil);
-        pupilPrice.setText("Schülerpreis: " + pupil);
+       /* TextView pupilPrice = (TextView) view.findViewById(R.id.pupil);
+        pupilPrice.setText("Schülerpreis: " + pupil);*/
 
         // Gastpreis
         TextView guestPrice = (TextView) view.findViewById(R.id.guest);
