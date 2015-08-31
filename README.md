@@ -1,4 +1,4 @@
-# Mensa-App-Tuebingen
+<h1><img src="http://i.epvpimg.com/XUGkc.jpg" /> Mensa App Tübingen</h1>
 Simple MensaApp für Mensa Morgenstelle Universität Tübingen.
 
 ## Aktueller Stand
