@@ -31,7 +31,7 @@ class StuweParser:
 
 		for tr in table:
 			tds = tr.find_all('td')
-			menue = Menue(tds[0].string, tds[1].string, tds[2].string, tds[3].string, tds[4].string)
+			menue = Menue(tds[0].string, tds[1].string, tds[2].string, tds[3].string)
 
 			menues.append(menue)
 
@@ -54,13 +54,14 @@ class StuweParser:
 			ET.SubElement(men, "name").text = m.name
 
 			# food
-			ET.SubElement(men, "food").text = m.food
+			food = m.food.rstrip('\r\n').split('\n')
+			food = [y for y in [x.lstrip() for x in food] if y != '']
+
+			ET.SubElement(men, "food").text = ''.join(food)
+			
 
 			# student price
 			ET.SubElement(men, "studentPrice").text = m.student
-
-			# pupil price
-			ET.SubElement(men, "pupilPrice").text = m.pupil
 
 			# guest price
 			ET.SubElement(men, "guestPrice").text = m.guest
