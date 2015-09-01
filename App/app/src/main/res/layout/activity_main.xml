@@ -2,86 +2,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@color/white"
     android:theme="@style/AppTheme"
-
-    >
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/bg"
         android:layout_alignParentTop="true"
-        android:adjustViewBounds="true"
         android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
         android:alpha=".90"
-        android:background="@color/dark"/>
+        android:background="@color/dark"
+        android:src="@drawable/bg" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@null"
+        android:src="@drawable/menu"
+        android:alpha="0.7"
+        android:tint="@color/lightgrey"
+        android:gravity="top|left"
+        android:layout_margin="8dp" />
 
     <TextView
         android:id="@+id/myImageViewText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_alignRight="@+id/imageView1"
         android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
         android:layout_margin="8dp"
-        android:paddingBottom="40dp"
         android:gravity="bottom|left"
-        android:textSize="22dp"
+        android:paddingBottom="40dp"
         android:text="Mensa Morgenstelle"
-        android:textColor="#FFF" />
+        android:textColor="#FFF"
+        android:textSize="22dp" />
 
     <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_alignRight="@+id/imageView1"
         android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_below="@+id/myImageViewText"
         android:layout_margin="8dp"
-        android:paddingBottom="10dp"
         android:gravity="bottom|left"
-        android:textSize="18dp"
+        android:paddingBottom="10dp"
         android:text=""
         android:textColor="#FFF"
-        android:layout_below="@+id/myImageViewText"/>
+        android:textSize="18dp" />
 
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_below="@+id/imageView1"
-        android:layout_margin="10dp" >
+        android:layout_margin="0dp">
 
-    <TextView
-        android:id="@+id/debug"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor='#000'
-        android:text=""/>
+        <TextView
+            android:id="@+id/debug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor='#000' />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/vpPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
+            android:background="@color/green">
 
             <android.support.v4.view.PagerTabStrip
                 android:id="@+id/pager_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
-                android:paddingBottom="4dp"
-                android:paddingTop="4dp"
-
-
-                />
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textColor="@color/white"/>
 
         </android.support.v4.view.ViewPager>
     </LinearLayout>
-
-
 </RelativeLayout>
+
+
+
+

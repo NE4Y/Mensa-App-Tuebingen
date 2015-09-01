@@ -4,11 +4,11 @@ package ne4y_dev.de.mensatuebingen;
 public class Menue {
     private String name, food, studentPrice, pupilPrice, guestPrice;
 
-    public Menue(String name, String food, String studentPrice, String pupilPrice, String guestPrice) {
+    public Menue(String name, String food, String studentPrice, String guestPrice) {
         this.name = name;
         this.food = food;
         this.studentPrice = studentPrice;
-        this.pupilPrice = pupilPrice;
+       /* this.pupilPrice = pupilPrice;*/
         this.guestPrice = guestPrice;
     }
 
