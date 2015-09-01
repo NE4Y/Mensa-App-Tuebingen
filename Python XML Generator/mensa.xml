@@ -1,13 +1,13 @@
-<mensa><day>Freitag</day><date>28.08.2015</date><menue><name>Men&#252; I</name><food>TagessuppeSeelachsfilet paniert [F]KartoffelsalatBlattsalat</food><studentPrice>2,95 &#8364;
+<mensa><day>Montag</day><date>31.08.2015</date><menue><name>Men&#252; I</name><food>TagessuppeCurrywurst [S/R]Pommes fritesBlattsalat</food><studentPrice>2,95 &#8364;
 </studentPrice><guestPrice>6,10 &#8364;
-</guestPrice></menue><menue><name>Alternativessen</name><food>Tiroler ApfelstrudelVanillesauce</food><studentPrice>2,95 &#8364;
+</guestPrice></menue><menue><name>Alternativessen</name><food>Gem&#252;senuggetsKr&#228;uter-TomatensauceReisMischsalat mit Kr&#228;utern</food><studentPrice>2,95 &#8364;
 </studentPrice><guestPrice>6,10 &#8364;
-</guestPrice></menue><menue><name>Tellergericht</name><food>Fleischk&#252;chle [S/R]</food><studentPrice>2,50 &#8364;
+</guestPrice></menue><menue><name>Wahlessen I</name><food>Gef&#252;llte Paprika [S/R]Reis</food><studentPrice>-</studentPrice><guestPrice>-</guestPrice></menue><menue><name>Tellergericht</name><food>Blattsalat</food><studentPrice>2,50 &#8364;
 </studentPrice><guestPrice>5,40 &#8364;
 </guestPrice></menue><menue><name>Salat-/Gem&#252;sebuffet 100 g</name><food>Salatbuffet</food><studentPrice>0,95 &#8364;
 </studentPrice><guestPrice>1,25 &#8364;
-</guestPrice></menue><menue><name>Beilagen</name><food>Beilagen- und Gem&#252;seb&#252;ffet</food><studentPrice>0,85 &#8364;
+</guestPrice></menue><menue><name>Beilagen</name><food>Beilagenbuffet</food><studentPrice>0,85 &#8364;
 </studentPrice><guestPrice>1,35 &#8364;
-</guestPrice></menue><menue><name>Dessert</name><food>Dessertauswahl</food><studentPrice>0,85 &#8364;
+</guestPrice></menue><menue><name>Dessert</name><food>Dessertbuffet</food><studentPrice>0,85 &#8364;
 </studentPrice><guestPrice>1,35 &#8364;
 </guestPrice></menue></mensa>

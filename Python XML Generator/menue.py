@@ -16,3 +16,4 @@ class Menue:
 		return self.name + ": " +  self.food + " Student: " + self.student
 
 	
+	

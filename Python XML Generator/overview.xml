@@ -1,0 +1,49 @@
+<mensaXML><mensa><day>Dienstag</day><date>01.09.2015</date><menue><name>Men&#252; I</name><food>TagessuppeUngarisches Rindergulasch [R]Sp&#228;tzleBlattsalat</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Alternativessen</name><food>TagessuppeGef&#252;llte Paprika [V]SalzkartoffelnMischsalat mit Kr&#228;utern</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Tellergericht</name><food>Chili sin Carne [V]</food><studentPrice>2,50 &#8364;
+</studentPrice><guestPrice>5,40 &#8364;
+</guestPrice></menue><menue><name>Salat-/Gem&#252;sebuffet 100 g</name><food>Salatbuffet</food><studentPrice>0,95 &#8364;
+</studentPrice><guestPrice>1,25 &#8364;
+</guestPrice></menue><menue><name>Beilagen</name><food>Beilagen- und Gem&#252;seb&#252;ffet</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue><menue><name>Dessert</name><food>Dessertauswahl</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue></mensa><mensa><day>Mittwoch</day><date>02.09.2015</date><menue><name>Men&#252; I</name><food>TagessuppeFleischk&#252;chle [S/R]PfefferrahmsauceKartoffelkrokettenMischgem&#252;se</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Alternativessen</name><food>TagessuppeSpanische NudelpfanneMischsalat mit Kr&#228;utern</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Tellergericht</name><food>Tellergericht nach Tagesangebot</food><studentPrice>2,50 &#8364;
+</studentPrice><guestPrice>5,40 &#8364;
+</guestPrice></menue><menue><name>Salat-/Gem&#252;sebuffet 100 g</name><food>Salatbuffet</food><studentPrice>0,95 &#8364;
+</studentPrice><guestPrice>1,25 &#8364;
+</guestPrice></menue><menue><name>Beilagen</name><food>Beilagen- und Gem&#252;seb&#252;ffet</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue><menue><name>Dessert</name><food>Dessertauswahl</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue></mensa><mensa><day>Donnerstag</day><date>03.09.2015</date><menue><name>Men&#252; I</name><food>TagessuppeH&#228;hnchenbrustfilet"Mediterrane"ReisSalat</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Alternativessen</name><food>TagessuppePfannengyros [v]Pommes fritesMischsalat mit Kr&#228;utern</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Tellergericht</name><food>Tellergericht nach Tagesangebot</food><studentPrice>2,50 &#8364;
+</studentPrice><guestPrice>5,40 &#8364;
+</guestPrice></menue><menue><name>Salat-/Gem&#252;sebuffet 100 g</name><food>Salatbuffet</food><studentPrice>0,95 &#8364;
+</studentPrice><guestPrice>1,25 &#8364;
+</guestPrice></menue><menue><name>Beilagen</name><food>Beilagen- und Gem&#252;seb&#252;ffet</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue><menue><name>Dessert</name><food>Dessertauswahl</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue></mensa><mensa><day>Freitag</day><date>04.09.2015</date><menue><name>Men&#252; I</name><food>TagessuppePaniertes Seelachsfilet [F]Remouladensaucebunter KartoffelsalatBlattsalat</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Alternativessen</name><food>Gef&#252;llte KartoffeltalerReisMischsalat mit Kr&#228;utern</food><studentPrice>2,95 &#8364;
+</studentPrice><guestPrice>6,10 &#8364;
+</guestPrice></menue><menue><name>Tellergericht</name><food>Tellergericht nach Tagesangebot</food><studentPrice>2,50 &#8364;
+</studentPrice><guestPrice>5,40 &#8364;
+</guestPrice></menue><menue><name>Salat-/Gem&#252;sebuffet 100 g</name><food>Salatbuffet</food><studentPrice>0,95 &#8364;
+</studentPrice><guestPrice>1,25 &#8364;
+</guestPrice></menue><menue><name>Beilagen</name><food>Beilagen- und Gem&#252;seb&#252;ffet</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue><menue><name>Dessert</name><food>Dessertauswahl</food><studentPrice>0,85 &#8364;
+</studentPrice><guestPrice>1,35 &#8364;
+</guestPrice></menue></mensa></mensaXML>
