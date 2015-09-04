@@ -9,10 +9,10 @@ from day import Day
 import xml.etree.cElementTree as ET
 
 class StuweParser:
-	days = []
 
 	def __init__(self, html):
 		self.parser = BeautifulSoup(html, 'html.parser')
+		self.days = []
 
 	# returns current day
 	def getCurrentDay(self):
@@ -97,9 +97,9 @@ class StuweParser:
 
 
 		
-		StuweParser.days.append(Day(rday, date, menues))
+		self.days.append(Day(rday, date, menues))
 
-	def generateWeekXML(self):
+	def generateWeekXML(self, name):
 		self.getAllFoodInformation()
 
 		menues = self.getFoodTable()
@@ -107,7 +107,7 @@ class StuweParser:
 		root = ET.Element("mensaXML")
 
 
-		for d in StuweParser.days:
+		for d in self.days:
 
 			subroot = ET.SubElement(root, "mensa")
 
@@ -138,7 +138,7 @@ class StuweParser:
 
 		tree = ET.ElementTree(root)
 
-		tree.write("overview.xml")
+		tree.write(name)
 
 
 
