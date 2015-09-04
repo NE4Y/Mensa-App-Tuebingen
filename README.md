@@ -5,4 +5,4 @@ Simple MensaApp für Mensa Morgenstelle Universität Tübingen.
 
 <img src="http://i.epvpimg.com/Xofwe.jpg" width="230" style="float:left;"/>
 <img src="http://i.epvpimg.com/md22h.jpg" width="230" style="float:left;"/>
-<img src="http://i.epvpimg.com/UpC0f.jpg" width="230" style="float:left;" />
+<img src="http://i.epvpimg.com/Emhwh.jpg" width="230" style="float:left;" />
