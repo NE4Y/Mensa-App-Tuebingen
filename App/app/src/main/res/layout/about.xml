@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:alpha=".90"
+        android:background="@color/dark"
+        android:src="@drawable/about2" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@null"
+        android:src="@drawable/menu"
+        android:alpha="0.7"
+        android:tint="@color/lightgrey"
+        android:gravity="top|left"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_margin="8dp"
+        android:gravity="bottom|left"
+        android:paddingBottom="40dp"
+        android:text="Über die App"
+        android:textColor="#FFF"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_below="@+id/myImageViewText"
+        android:layout_margin="8dp"
+        android:gravity="bottom|left"
+        android:paddingBottom="10dp"
+        android:text="Entwickler: Steffen Lindner"
+        android:textColor="#FFF"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/spacer"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/green"
+        android:layout_below="@+id/imageView1">
+
+     </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/spacer"
+        android:layout_margin="0dp">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abouttext"
+            android:textColor='@color/dark'
+            android:padding="8dp"
+            android:autoLink="web"/>
+
+
+    </ScrollView>
+</RelativeLayout>
+
